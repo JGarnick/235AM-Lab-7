@@ -12,7 +12,7 @@ using DAL;
 
 namespace Lab7Sqlite
 {
-    public class TideDataAdapter : BaseAdapter<TideDataObject>, ISectionIndexer
+    public class TideDataAdapter : BaseAdapter<TideDataObject>
     {
         List<TideDataObject> tdObjects;
         Activity context;       // The activity we are running in
@@ -21,7 +21,6 @@ namespace Lab7Sqlite
         {
             tdObjects = tdo;
             context = c;
-            
         }
 
         public override long GetItemId(int position)
@@ -45,34 +44,12 @@ namespace Lab7Sqlite
             View view = convertView;
             if (view == null)
             {
-                view = context.LayoutInflater.Inflate(Android.Resource.Layout.TwoLineListItem, null);
+                view = context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem1, null);
             }
 
-            view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = tdObjects[position].Date + " " + tdObjects[position].Day;
-            view.FindViewById<TextView>(Android.Resource.Id.Text2).Text = tdObjects[position].Level + ": " + tdObjects[position].Time;
+            view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = tdObjects[position].DateDisplay + " " + tdObjects[position].Day + tdObjects[position].Level + ": " + tdObjects[position].Time;
 
             return view;
         }
-
-        // -- Code for the ISectionIndexer implementation follows --
-        String[] sections;
-        Java.Lang.Object[] sectionsObjects;
-        Dictionary<string, int> alphaIndex;
-
-        public int GetPositionForSection(int section)
-        {
-            return alphaIndex[sections[section]];
-        }
-
-        public int GetSectionForPosition(int position)
-        {
-            return 1;
-        }
-
-        public Java.Lang.Object[] GetSections()
-        {
-            return sectionsObjects;
-        }
-
     }
 }

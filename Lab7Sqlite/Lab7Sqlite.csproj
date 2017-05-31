@@ -59,6 +59,8 @@
     <Compile Include="..\DAL\TideDataObject.cs">
       <Link>DAL\TideDataObject.cs</Link>
     </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="ListViewActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

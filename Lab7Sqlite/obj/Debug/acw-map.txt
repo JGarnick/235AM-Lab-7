@@ -1,3 +1,7 @@
+Lab7Sqlite.ListViewActivity, Lab7Sqlite;md5d738df0ef1217787028efae856443cdd.ListViewActivity
+Lab7Sqlite.ListViewActivity, Lab7Sqlite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d738df0ef1217787028efae856443cdd.ListViewActivity
+Lab7Sqlite.ListViewActivity;md5d738df0ef1217787028efae856443cdd.ListViewActivity
+lab7sqlite.ListViewActivity;md5d738df0ef1217787028efae856443cdd.ListViewActivity
 Lab7Sqlite.MainActivity, Lab7Sqlite;md5d738df0ef1217787028efae856443cdd.MainActivity
 Lab7Sqlite.MainActivity, Lab7Sqlite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d738df0ef1217787028efae856443cdd.MainActivity
 Lab7Sqlite.MainActivity;md5d738df0ef1217787028efae856443cdd.MainActivity

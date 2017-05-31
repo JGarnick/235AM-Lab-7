@@ -48,11 +48,14 @@ namespace CreateDBConsole
             int pk = 0;
             foreach (string[] tideInfo in stringArrays)
             {
-                var date = Convert.ToDateTime(DateTime.ParseExact(tideInfo[0].ToString(), "yyyy/MM/dd", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None));
+                var dateTime = Convert.ToDateTime(DateTime.ParseExact(tideInfo[0].ToString(), "yyyy/MM/dd", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None));
+                string[] dateTrunc = dateTime.ToString().Split('/');
+                var date = dateTrunc[0] + "/" + dateTrunc[1];
                 pk += db.Insert(new TideDataObject()
                 {
                     Station = station,
-                    Date = date,
+                    DateDisplay = date,
+                    DateActual = dateTime,
                     Day = tideInfo[1],
                     Time = tideInfo[2],
                     PredFt = tideInfo[3],
@@ -61,7 +64,7 @@ namespace CreateDBConsole
                 });
                 // Give an update every 100 rows
                 if (pk % 100 == 0)
-                    Console.WriteLine("{0} {1} {2} {3} {4} rows inserted", pk, station, tideInfo[0], tideInfo[1], tideInfo[2], tideInfo[4]);
+                    Console.WriteLine("{0} {1} {2} {3} {4} rows inserted", pk, station, date, dateTime, tideInfo[0], tideInfo[1], tideInfo[2], tideInfo[4]);
             }
             
         }

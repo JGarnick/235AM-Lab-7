@@ -9,7 +9,8 @@ namespace DAL
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public string Station { get; set; }
-        public DateTime Date { get; set; }
+        public string DateDisplay { get; set; }
+        public DateTime DateActual { get; set; }
         public string Day { get; set; }
         public string Level { get; set; }
         public string Time { get; set; }
