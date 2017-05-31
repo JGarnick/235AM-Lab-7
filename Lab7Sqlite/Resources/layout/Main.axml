@@ -29,7 +29,7 @@
         android:endYear="2017"
         android:startYear="2017" />
     <Button
-        android:text="Show Data in a ListView"
+        android:text="Show Tides"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/listViewButton" />
