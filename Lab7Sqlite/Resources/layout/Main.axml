@@ -25,7 +25,9 @@
         android:calendarViewShown="false"
         android:spinnersShown="true"
         android:id="@+id/tideDatePicker"
-        android:datePickerMode="spinner" />
+        android:datePickerMode="spinner"
+        android:endYear="2017"
+        android:startYear="2017" />
     <Button
         android:text="Show Data in a ListView"
         android:layout_width="fill_parent"
