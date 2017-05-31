@@ -47,7 +47,11 @@ namespace Lab7Sqlite
                 view = context.LayoutInflater.Inflate(Android.Resource.Layout.SimpleListItem1, null);
             }
 
-            view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = tdObjects[position].DateDisplay + " " + tdObjects[position].Day + tdObjects[position].Level + ": " + tdObjects[position].Time;
+            view.FindViewById<TextView>(Android.Resource.Id.Text1).Text = 
+                "Date: " + tdObjects[position].DateDisplay + ",\t\t\t\t" + 
+                "Day: " + tdObjects[position].Day + ",\t\t\t\t" + 
+                "Time: " + tdObjects[position].Time + ",\t\t\t\t" + 
+                "Level: " + tdObjects[position].Level;
 
             return view;
         }

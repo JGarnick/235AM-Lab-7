@@ -84,31 +84,6 @@ namespace Lab7Sqlite
                 listView.PutExtra("EndDate", endDate.ToString());
                 listView.PutExtra("Station", selectedStation);
                 StartActivity(listView);
-
-                //var tides = (from t in db.Table<TideDataObject>()
-                //             where (t.Station == selectedStation)
-                //                 && (t.Date <= endDate)
-                //                 && (t.Date >= startDate)
-                //             select t).ToList();
-                // HACK: gets around "Default constructor not found for type System.String" error
-                //int count = tides.Count;
-                //string[] truncDate;
-                //string[] tidesInfoArray = new string[count];
-                //tidesInfoArray[0] = "Date" + "\t\t " + "Day" + "\t\t\t\t" + "Time" + "\t\t\t\t\t  " + "Pred" + "\t\t\t\t" + "Level";
-                //for (int i = 1; i < count; i++)
-                //{
-                //    truncDate = tides[i].Date.ToShortDateString().Split('/');
-                //    tidesInfoArray[i] =
-                //        truncDate[0] + "/" + truncDate[1] + "\t\t\t" + 
-                //        tides[i].Day + "\t\t\t" + 
-                //        tides[i].Time + "\t\t\t" + 
-                //        tides[i].PredCm +"cm" + "\t\t\t\t\t" +
-                //        tides[i].Level;
-                //}
-                //tidesListView.Adapter =
-                //    new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, tidesInfoArray);
-
-
             };
         }
     }
