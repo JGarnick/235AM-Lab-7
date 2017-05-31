@@ -1,0 +1,15 @@
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\bin\Debug\Lab7Sqlite.dll
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\bin\Debug\Lab7Sqlite.pdb
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\bin\Debug\Lab7Sqlite.Lab7Sqlite.apk
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\bin\Debug\Lab7Sqlite.Lab7Sqlite-Signed.apk
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\Lab7Sqlite.dll
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\Lab7Sqlite.pdb
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\android\bin\Lab7Sqlite.Lab7Sqlite.apk
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\res\layout\main.xml
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\res\values\strings.xml
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\res\drawable\icon.png
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\R.cs.flag
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\uploadflags.txt
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\bin\Debug\Lab7Sqlite.dll.mdb
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\android\assets\Lab7Sqlite.dll.mdb
+C:\Users\Christina\Desktop\CS235AM Android\Lab7\Lab7Sqlite\Lab7Sqlite\obj\Debug\Lab7Sqlite.csprojResolveAssemblyReference.cache
